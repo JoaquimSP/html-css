@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100%; */
+}
+
+body {
+
+    /* Medidas Absolutas = cm, mm, in, px, pt, pc 
+       
+    Medidas Relativas =  em, ex, rem, vw, vh, %    
+
+    16px geralmente = 1em    ------     32px = 2em
+
+    Opinião Gustavo Guanabara = utilizar mais o "em" pelo fato de se adaptar em todas as telas. Seja em computador, celular, tablet...
+    
+    px e em = medidas mais recomendadas */
+
+    font-size: 1em;
+}
+
+h1, h2 {
+    /*
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal; peso da fonte - tipos = lighter, normal, bold, bolder 
+    font-size: 2em;
+    font-style: italic; */
+
+    /* shorthand font = atalho
+    ordem --> font-style -> font-weight -> font-size -> font-family */
+
+    font: italic bolder 3em 'Work Sans', sans-serif;
+    
+    /* text-decoration: underline; Sublinhado */
+
+}

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: #00E6B3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+nav{
+    background-color: #00B38C;
+    padding: 3px;
+    box-shadow: 1px 1px 10px rgb(252, 252, 252);
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: #006650;
+}
+
+h2{
+    color: #006650;
+}
+
+p{
+    color:#007065;
+}
+
+main{
+    background-color: #00E6B3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Color para mostrar se o site já foi visitado */
+a:visited{
+    color: black;
+}
+
+/* Quando passar o mouse por cima, mostra o sublinhado */
+a:hover{
+    color: #426A6B;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #00E6B3;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer > p {
+    color: white;
+    margin: 5px;
+}
