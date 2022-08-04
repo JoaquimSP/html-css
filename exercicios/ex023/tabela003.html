@@ -20,6 +20,13 @@
         padding: 10px;
       }
 
+      caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+      }
+
       thead {
         background-color: aquamarine;
       }
@@ -33,13 +40,18 @@
         text-align: right;
       }
 
+      .populacao {
+        width: 50px;
+      }
+
     </style>
 </head>
 <body>
    <h1>Uso de tabelas grandes</h1>
     <!-- 
         ANATOMIA PARA TABELAS GRANDES
-          TABLE 
+          TABLE
+           CAPTION = LEGENDA 
             THEAD
               TR, TD, TH
             TBODY
@@ -49,10 +61,11 @@
      --> 
 
      <table>
+       <caption>População das Unidades Federativas</caption>  
         <thead>
           <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" class="populacao">População</th>
           </tr>
         </thead>
         <tbody>
@@ -103,7 +116,7 @@
         </tbody>
         <tfoot>
            <tr>
-             <th>Total de Habitantes</th>
+             <th scope="row">Total de Habitantes</th> <!-- "Row" Importante para o SEO (Mecanismos de Busca) -->
              <td class="num"><strong>163.569.026</strong></td>
            </tr>
         </tfoot>
