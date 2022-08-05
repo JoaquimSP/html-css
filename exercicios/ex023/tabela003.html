@@ -13,6 +13,7 @@
       table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
       }
 
       td, th {
@@ -33,7 +34,13 @@
 
       tfoot {
         background-color: rgba(128, 128, 128, 0.815);
-        color: white;
+        color: black;
+      }
+
+      thead > tr > th { /* Grudar o thead na navegação */
+        position: sticky; 
+        top: 0;
+        background-color: aquamarine;
       }
       
       tbody > tr:nth-child(2n) { /* Efeito Zebrado - (odd) irá preencher as células impares ou (2n-1) ou Even = Pares - Caso queira colocar duas cores inserir (odd) e (even)*/
@@ -117,6 +124,74 @@
           <tr>
              <td>Maranhão</td>
              <td class="num">7 075 181</td>
+          </tr>
+          <tr>
+             <td>Mato Grosso</td>
+             <td class="num">3 236 578</td>
+          </tr>
+          <tr>
+             <td>Mato Grosso do Sul</td>
+             <td class="num">2 630 098</td>
+          </tr>
+          <tr>
+             <td>Minhas Gerais</td>
+             <td class="num">20 777 672</td>
+          </tr>
+          <tr>
+             <td>Pará</td>
+             <td class="num">8 101 180</td>
+          </tr>
+          <tr>
+             <td>Paraíba</td>
+             <td class="num">3 950 359</td>
+          </tr>
+          <tr>
+             <td>Paraná</td>
+             <td class="num">11 112 062</td>
+          </tr>
+          <tr>
+             <td>Pernambuco</td>
+             <td class="num">9 297 861</td>
+          </tr>
+          <tr>
+             <td>Piauí</td>
+             <td class="num">3 198 185</td>
+          </tr>
+          <tr>
+             <td>Rio de Janeiro</td>
+             <td class="num">16 497 395</td>
+          </tr>
+          <tr>
+             <td>Rio Grande do Norte</td>
+             <td class="num">3 419 550</td>
+          </tr>
+          <tr>
+             <td>Rio Grande do Sul</td>
+             <td class="num">11 228 091</td>
+          </tr>
+          <tr>
+             <td>Rondônia</td>
+             <td class="num">1 755 015</td>
+          </tr>
+          <tr>
+             <td>Roraima</td>
+             <td class="num">500 826</td>
+          </tr>
+          <tr>
+             <td>Santa Catarina</td>
+             <td class="num">6 734 568</td>
+          </tr>
+          <tr>
+             <td>São Paulo</td>
+             <td class="num">44 169 350</td>
+          </tr>
+          <tr>
+             <td>Sergipe</td>
+             <td class="num">2 227 294</td>
+          </tr>
+          <tr>
+             <td>Tocantins</td>
+             <td class="num">1 502 759</td>
           </tr>
         </tbody>
         <tfoot>
