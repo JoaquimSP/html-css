@@ -10,14 +10,23 @@
         text-decoration: none;
         color: blue;
       }
+      iframe { 
+        /* Tamanho padrão 300x150 (Largura e Altura) */
+        width: 400px;
+        height: 400px;
+        border: 1px dashed black; /* dashed = pontilhado */
+      }
     </style>
 </head>
 <body>
   <h1>Exercío 24</h1>
     <p>Acessando o site do <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVideo</a> para aprender a programar.</p>
   <h2>Testando o uso de um iFrames com o Site do CursoemVideo</h2>
-    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe> para aprender a programar.</p>
+    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com/" frameborder="0"> <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a> </iframe> para aprender a programar.</p> <!-- Usando a tag <a> caso o iFrame não for compatível irá aparecer o link para abrir o site em outra aba -->
   <h2>O site do Google possui uma proteção de iFrames</h2> 
-    <p>Acessando o site do Google <iframe src="https://www.google.com/" frameborder="0"></iframe></p>  
+    <p>Acessando o site do Google <iframe src="https://www.google.com/" frameborder="0"></iframe></p>
+  <h2>Acessando o repositório do Guanabara</h2>
+    <p>Repositório com o conteúdo do cursoemvideo <iframe src="https://gustavoguanabara.github.io" frameborder="0"></iframe> </p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut velit recusandae, odit esse libero veniam enim! Esse iusto sapiente ad. Laborum nesciunt harum quibusdam placeat perferendis cumque iste officiis perspiciatis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nemo iusto voluptates aliquid deleniti neque, eveniet nisi natus, molestias quia totam? Cupiditate consequuntur possimus nemo nam voluptates iusto, beatae quisquam?</p>    
 </body>
 </html>
