@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iFrames</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: red;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+   <h1>Faça uma escolha</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde labore facere iusto culpa? Nulla asperiores quod aperiam iure voluptatum expedita ut excepturi aliquid deserunt blanditiis! Ex, molestias pariatur. Similique, illum!</p>
+
+     <!-- Segundo = target="frame" -->
+     <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+     </ul>
+     
+     <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias vel quibusdam sed consequatur reiciendis commodi a libero cum dolores non quos nostrum necessitatibus delectus nesciunt atque aliquid hic, ut dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, odit dolore! Magni similique vel autem numquam maxime commodi architecto, fugit sed delectus. Vero neque at omnis asperiores porro animi beatae.</p> 
+
+     <!-- Primeira declarar name="frame" -->
+     <iframe name="frame" frameborder="0">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+     </iframe>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, veritatis. Sapiente voluptatibus iusto officia tenetur illum sit amet enim! Ipsa quae earum libero harum vitae vero fuga, molestias deserunt amet!</p>
+
+</body>
+</html>
