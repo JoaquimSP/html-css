@@ -1,4 +1,2 @@
 # html-css
- 👨‍💻 Curso de HTML5 e CSS3 do CursoemVideo
-
-Estou fazendo o curso de HTML5 e CSS3 do CursoemVideo e agora vou começar a gerenciar repositórios!
+ 🖖 Repositório destinado a exercícios e desafios referente ao Curso de HTML5 & CSS3 do CursoemVideo, ministrado pelo professor Gustavo Guanabara. 
