@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="form.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+   <h1>Formulário</h1>
+     <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo: </legend>
+              <input type="radio" name="sexo" id="i_masc" value="M"> <label for="i_masc">Masculino</label> <br>
+              <input type="radio" name="sexo" id="i_fem" value="F"> <label for="i_fem">Feminino</label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos: </legend>
+              <input type="checkbox" name="fut" id="i_fut" checked> <label for="i_fut">Futebol</label> <br>
+              <input type="checkbox" name="basq" id="i_basq"> <label for="i_basq">Basquete</label> <br>
+              <input type="checkbox" name="volei" id="i_vol"> <label for="i_vol">Volei</label> <br>
+              <input type="checkbox" name="cicli" id="i_cicli"> <label for="i_cicli">Ciclismo</label> <br>
+              <input type="checkbox" name="skate" id="i_skat"> <label for="i_skat">Skate</label>
+        </fieldset>
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Limpar">
+        </p>
+     </form> 
+</body>
+</html>
