@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="form.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+   <h1>Formulário</h1>
+     <fieldset>
+       <legend>Dados Pessoais</legend> 
+         <form action="cadastro.php">
+           <p>
+             <label for="i_nome">Nome: </label>
+             <input type="text" name="nome" id="i_nome" required>
+           </p>
+           <p>
+             <label for="i_email">E-mail: </label>
+             <input type="email" name="email" id="i_email" autocomplete="email" required>
+           </p>
+           <p>
+             <label for="i_tel">Telefone: </label>
+             <input type="tel" name="tel" id="i_tel" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" placeholder=" xxxx-xxxx" required> <!-- Pattern = 1234-1234 -->
+           </p>
+     </fieldset>
+       <!-- Estudar mais sobre RegEx (Expressões Regulares) -->  
+       <p>
+         <input type="submit" value="Enviar">
+         <input type="reset" value="Limpar">
+       </p> 
+     </form> 
+</body>
+</html>
