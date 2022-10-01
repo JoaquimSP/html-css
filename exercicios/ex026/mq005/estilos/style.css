@@ -22,7 +22,7 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {  
@@ -60,4 +60,18 @@ article > p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+}
+
+i#burguer {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /* Mostrar a "Mãozinha" quando passar o mouse */
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
 }
